@@ -146,7 +146,7 @@ export const getStaticProps: GetStaticProps = async () => {
   })
 
   const latestEpisodes = episodes.slice(0, 2)
-  const allEpisodes = episodes.slice(0, episodes.length)
+  const allEpisodes = episodes.slice(2, episodes.length)
 
   return {
     props: {
